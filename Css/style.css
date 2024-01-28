@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+
 }
 
 a{
@@ -21,7 +22,10 @@ i{
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-columns: 1fr 4fr 1fr;
+    gap: 30px; 
+    margin: 30px;
+    height: 94vh;
 }
 
 .container .left-section{
@@ -29,19 +33,22 @@ i{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 30px;
+    padding: 70px 20px;
+    background-color: #a9a9a9;
 }
 
  .container .left-section .logo{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 } 
 
 .container .left-section .logo img{
     width: 100px;
     height: 40px;
     object-fit: cover;
+    
 }
 
 .container .left-section .logo a{
@@ -49,34 +56,41 @@ i{
     color: #214199;
     font-weight: 900;
     padding: 40px 0;
+       
 }
+
+
 .menu-btn{
     width: 32px;
     height: 32px;
     align-items: center;
     justify-content: center;
     border: none;
-    background-color: #fefefe;
+    background-color: #a9a9a9;
     border-radius: 6px;
     cursor: pointer;
-    display: none;
+    /* display: none; */
+    
 }
 
 .container .left-section .sidebar{
     display: flex;
     flex-direction: column;
     gap: 20px
+    
 }
 
 .container .left-section .sidebar .item{
     display: flex;
     gap: 20px;
     cursor: pointer;
+    
 }
 
 .container .left-section .sidebar i{
     color: #214199;
     transition: all 0.3s ease;
+    
 }
 
 .container .left-section .sidebar a{
@@ -87,16 +101,29 @@ i{
     color: #214199;
     position: relative;
     transition: all 0.3s ease;
+    
 }
 
-.container .left-section .sidebar .item#active a, .container .left-section .sidebar .item#active i{
+.container .left-section .sidebar .item#active a, 
+.container .left-section .sidebar .item#active i{
     color: #214199;
 }
 
 .container .left-section .pic img{
-    width: 100px;
+    width: 200px;
+    height: 28vh;
+    
 }
 
+main{
+    text-align: center;
+    border: 2px solid blue;
+}
+
+.container2{
+    text-align: center;
+    border: 2px solid green;
+}
 
 
 
