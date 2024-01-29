@@ -27,145 +27,68 @@ body{
 .container{
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    gap: 30px;
     height: 100%;   
 }
 
 .container .left-section{
-    background-color: #c2c0c0;
-    width: 400px;
+    
+    width: 300px;
     height: 100%;
-    padding: 40px 0 40px 4%;
-    border: 2px solid red;
+    padding: 40px 0 40px 6%;
     display: flex;
     flex-direction: column;
-    flex;
-}
+  
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}  
+
 
 .btn-expandir {
-    border: 1px solid blue;
-    width: 100px;
-    height: 40px;
-    padding-left: 10px;
-    
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+  
 }
 
 .btn-expandir > i{
     color: #214199;
+    width: 40px;
     font-size: 35px;
     cursor: pointer;
-    border: 1px solid yellow;
 }
 
 .btn-expandir > img{
     width: 100px;
     margin-top: 20px;
-    border: 1px solid gray;
+    margin-left: 33%;
 }
 
 .btn-expandir > a{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 900;
+    margin-top: 10px;
+    margin-left: 15%;
+     
 }
 
 .left-section{
     height: 100%;
 }
 
-
-
- /* .container .left-section .logo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-} 
-
-.container .left-section .logo img{
-    width: 100px;
-    height: 40px;
-    object-fit: cover;
-    
+.sidebar .item i{
+    padding: 10px;
 }
-
-.container .left-section .logo a{
-    font-size:25px;
-    color: #214199;
-    font-weight: 900;
-    padding: 40px 0;
-       
+.sidebar .item a{
+    padding: 10px;
+    background-color: #fdfeff;  
 }
-
-
-.menu-btn{
-    width: 32px;
-    height: 32px;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    background-color: #a9a9a9;
-    border-radius: 6px;
-    cursor: pointer;
-    /* display: none;
-    
+.sidebar .pic img{
+    width: 300px;
+    height: 30vh;   
 }
-
-.container .left-section .sidebar{
-    display: flex;
-    flex-direction: column;
-    gap: 20px
-    
-}
-
-.container .left-section .sidebar .item{
-    display: flex;
-    gap: 20px;
-    cursor: pointer;
-    
-}
-
-.container .left-section .sidebar i{
-    color: #214199;
-    transition: all 0.3s ease;
-    
-}
-
-.container .left-section .sidebar a{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    font-size: 16px;
-    color: #214199;
-    position: relative;
-    transition: all 0.3s ease;
-    
-}
-
-.container .left-section .sidebar .item#active a, 
-.container .left-section .sidebar .item#active i{
-    color: #214199;
-}
-
-.container .left-section .pic img{
-    width: 200px;
-    height: 28vh;
-    
-} */
-
-.container2{
-    background-color: #dddbdb;
-    text-align: center;
-}
-
-.container3{
-    background-color: #c2c0c0;
-    text-align: center;
-}
-
-
-
-
-
-
 
 
