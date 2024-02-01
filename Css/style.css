@@ -28,7 +28,7 @@ nav.menu__lateral{
 
 .menu__lateral.expandir{
     width: 300px;
-    transition: 0.5s;
+    
 } 
 
 .btn__expandir{
@@ -47,13 +47,16 @@ ul{
     list-style-type: none;
 }
 
-ul li.ativo a{
+ul li.item__menu{
+    transition: 0.3s;
+}
+
+ul li.ativo{
     background-color: #8bc5f5;
 }
 
-ul li.item__menu .txt__link:hover{
-    color: #eb05aa;
-    transition: 0.2s;
+ul li.item__menu:hover{
+    background: #8bc5f5;
 }
 
 ul li.item__menu a{
@@ -64,7 +67,15 @@ ul li.item__menu a{
     padding: 10px 1%;
     display: flex;
     line-height: 27px;
+
 }
+
+ul li.item__menu .txt__link:hover{
+    color: #eb05aa;
+    transition: 0.2s;
+}
+
+
 
 ul li.item__menu a .txt__link{
     margin-left: 40px;
