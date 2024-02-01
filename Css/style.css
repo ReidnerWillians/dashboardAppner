@@ -9,7 +9,35 @@
 
 }
 
-a{
+.container{
+
+}
+
+.left-section{
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+}
+
+.btn-expandir{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    text-align: center;
+    padding-left: 20px;
+}
+
+
+
+.btn-expandir img{
+    width: 80px;
+    
+    
+}
+
+/* a{
     text-decoration: none;
     color: #214199;
 }
@@ -89,6 +117,6 @@ body{
 .sidebar .pic img{
     width: 300px;
     height: 30vh;   
-}
+} */
 
 
