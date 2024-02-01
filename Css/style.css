@@ -12,12 +12,12 @@ body{
     height: 100vh;
 }
 
-.menu__lateral{
-    width: 400px;
+nav.menu__lateral{
+    width: 80px;
     height: 100%;
     background-color: #d7d5d5;
-    padding: 40px 0 40px 3%;
-    box-shadow: 2px 0 0 gray;
+    padding: 40px 0 40px 1.7%;
+    box-shadow: 3px 0 0 rgb(59, 23, 158);
 
     position: fixed;
     top: 0;
@@ -26,27 +26,50 @@ body{
     transition: 0.5s;
 }
 
- .menu__lateral .expandir{
-    width: 400px;
+.menu__lateral:hover{
+    width: 300px;
     transition: 0.5s;
-}
+} 
 
 .btn__expandir{
     width: 100%;
-    padding-left: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    padding-right: 40px;
+    padding-left: 10px; 
 }
 
 .btn__expandir > i {
     color: #5b5be8;
     font-size: 34px;
     cursor: pointer;
-    padding-left: 300px;
-    padding-bottom: 20px;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item__menu .txt__link:hover{
+    color: #eb05aa;
+    transition: 0.2s;
+}
+
+ul li.item__menu a{
+    color: #2929C2;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 1%;
+    display: flex;
+    line-height: 27px;
+}
+
+ul li.item__menu a .txt__link{
+    margin-left: 40px;
+}
+
+ul li.item__menu a .icon i{
+    font-size: 30px;
+    color: #2929C2;
+    
 }
 
 .btn__expandir > a{
@@ -56,42 +79,28 @@ body{
     margin-top: 10px;
 }
 
-.btn__expandir .logo > img{
-    width: 130px;
+.pic img{
+    width: 180px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 65px;
 }
 
-ul{
-    list-style-type: none;
-    margin-top: 30px;
+.logo img{
+    width: 70px;
+    margin-left: 80px;
+
 }
 
-ul li.item__menu{
-    transition: .2s;
-}
-
-ul li.ativo{
-    color: red;
-}
-
-ul li.item__menu a .txt__link{
-    margin-left: 50px;
-}
-
-ul li.item__menu .txt__link:hover{
-    color: #bb00ff;
-}
-
-ul li.item__menu a{
-    color: #2929C2;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 400;
-    padding: 8px 4%;
-    display: flex;
-}
-
-ul li.item__menu a .icon i{
-    font-size: 30px;
-    line-height: 20px;
+.logo a{
+    font-size: 16px;
+    margin-left: 80px;
     color: #2929C2;
 }
+
+
+
+
+
+
+
